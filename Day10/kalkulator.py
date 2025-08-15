@@ -2,16 +2,6 @@ from logo_kalkulator import logo
 
 print(logo)
 
-# def tambah(angka1,angka2):
-#     return angka1 + angka2
-# def kurang(angka1,angka2):
-#     return angka1 - angka2
-# def bagi(angka1,angka2):
-#     return angka1 / angka2
-# def kali(angka1,angka2):
-#     return angka1 * angka2
-hasil_sementara = 0
-
 def hitung(angka1, angka2, operasi):
     if operasi == "+":
         return angka1 + angka2
@@ -41,15 +31,3 @@ while ulangi:
     else:
         print("Dadah!, TERIMAKASIH SUDAH MAU COBA PROGRAM INI :)")
         ulangi = False
-
-
-# if operasi == "+":
-#     print(tambah(angka1,angka2))
-# elif operasi == "-":
-#     print(kurang(angka1,angka2))
-# elif operasi == "/":
-#     print(bagi(angka1,angka2))
-# elif operasi == "x":
-#     print(kali(angka1,angka2))
-# else:
-#     print("Operasi Tidak Valid!")
